@@ -83,6 +83,8 @@ class MainActivity : AppCompatActivity() {
         FitnessOptions.builder()
                 .addDataType(DataType.TYPE_ACTIVITY_SEGMENT, FitnessOptions.ACCESS_WRITE)
                 .addDataType(DataType.TYPE_SPEED, FitnessOptions.ACCESS_WRITE)
+                .addDataType(DataType.TYPE_ACTIVITY_SEGMENT, FitnessOptions.ACCESS_READ)
+                .addDataType(DataType.TYPE_SPEED, FitnessOptions.ACCESS_READ)
                 .build()
     }
 
